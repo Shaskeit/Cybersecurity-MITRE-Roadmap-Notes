@@ -1,0 +1,33 @@
+📌 Tactic(s)
+
+    Reconnaissance
+
+🧠 Description
+Adversaries may gather information about the victims organization that can be used during targeting. Information about an organization may include a variety 
+of details, including the names of divisions/deparments, specifics of bussines operations, as well as the roles and responsabilities of key employes.
+
+🛠️ Real-World Examples
+
+  Adversaries may gather information in varioues ways, such as direct elictation via Phishing for Information.
+APT28 has used a large language model  (LLMs) ti gather information about satellite capabilities.
+
+🔍 Detection Ideas
+
+   Much of this activity may have a very high occrence and associated to false positive rate, as well as potentially taking place
+outside the visibility of the target organization, making detection difficult for defenders.
+🔐 Mitigation Strategies
+
+    This technique cannot be easily mitigated with preventive controls since it is based on behaviours performed outside of the scope of enterpise defense and controls.
+
+🔗 External References
+
+https://attack.mitre.org/techniques/T1591/
+
+🧪 Related Tools or Labs
+
+    TryHackMe: [Room name or link]
+    Atomic Red Team: [Link to atomic test]
+    Detection Lab / ELK Stack setup (optional)
+
+Author: Jose Luis
+Date: 2025-05-24

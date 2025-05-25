@@ -1,1 +1,33 @@
 
+📌 Tactic(s)
+
+    Reconnaissance
+
+🧠 Description
+Adversrias gather information about the victims host hardware, they can use Active Scanning to collect all the information of the host server.
+
+🛠️ Real-World Examples
+
+    ** Volt Typhoon has conducted pre-compromise reconnaissance for victim host information
+** Volt Typhoon is a Chinise state sponsored actor active since 2021. Their primary targets are based in the US.
+
+🔍 Detection Ideas
+
+    Internet scanners may be used to look for patterns associated with malicious content designed to collect host information from visitors
+
+🔐 Mitigation Strategies
+
+    This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls. Efforts should focus on minimizing the amount and sensitivity of data available to external parties
+
+🔗 External References
+
+   https://attack.mitre.org/techniques/T1592/
+
+🧪 Related Tools or Labs
+
+    TryHackMe: [Room name or link]
+    Atomic Red Team: [Link to atomic test]
+    Detection Lab / ELK Stack setup (optional)
+
+Author: Jose Luis
+Date: 2025-05-24
